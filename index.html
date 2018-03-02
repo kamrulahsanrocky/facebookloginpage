@@ -1,0 +1,881 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Facebook log in or sign up</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <div class="page-wrapper">
+
+        <div class="header">
+
+            <div class="centered-header-container">
+
+                <div class="logo-section">
+                    <img src="images/facebook_logo.png" alt="image missing">
+                </div>
+                <!-- logo-section -->
+                <div class="login-section">
+                    <table cellspacing="0">
+                        <tbody>
+                            <tr>
+                                <td class="login-input-texts">
+                                    <label for="email">Email or Phone</label>
+                                </td>
+                                <td class="login-input-texts">
+                                    <label for="pass">Password</label>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <input type="email" class="inputtext" name="email" id="email" value="" tabindex="1">
+                                </td>
+                                <td>
+                                    <input type="password" class="inputtext" name="pass" id="pass" tabindex="2">
+                                </td>
+                                <td>
+                                    <label id="loginbutton" for="login-button">
+                                        <input value="Log In" tabindex="4" type="submit" id="login-button">
+                                    </label>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="login-form-label-field"></td>
+                                <td class="login-form-label-field">
+                                    <div>
+                                        <a href="#">Forgotten account?</a>
+                                    </div>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <!-- login-section -->
+
+            </div>
+            <!--centered-header-container -->
+
+        </div>
+        <!--header -->
+        <div class="main-content-container">
+            <div class="main-content">
+
+                <div class="facebook-moto-container">
+
+                    <div class="connected-message">
+                        <p>Facebook helps you connect and share with the people in your life.</p>
+                    </div>
+                    <img src="images/connected_image.png" alt="picture missing">
+
+                </div>
+                <!-- facebook-moto-container -->
+
+                <div class="registration-area-container">
+
+                    <div class="registration-head-section">
+
+                        <div class="registration-heading-one">
+                            <p id="heading-one">Create an account</p>
+                        </div>
+                        <!-- registration-heading-one -->
+
+                        <div class="registration-heading-two">
+                            <p id="heading-two">It's free and always will be.</p>
+                        </div>
+                        <!-- registration-heading-two -->
+
+                    </div>
+                    <!-- registration-head-section -->
+
+                    <div class="registration-form-container">
+
+                        <form action="" method="" enctype="">
+                            <div class="form-group-first-name-surname register-form-group-container">
+                                <label for="firstname"></label>
+                                <input type="text" class='register-text' id="firstname" name="" placeholder="First name">
+                                <label for="surname"></label>
+                                <input type="text" class='register-text' id="surname" name="" placeholder="Surname">
+                            </div>
+                            <!-- form-group-first-name-surname -->
+
+                            <div class="form_group_email register-form-group-container">
+                                <label for="email"></label>
+                                <input type="email" class='register-text full-width-text' id="email" name="" placeholder="Mobile number or email address">
+                            </div>
+                            <!-- form_group_email -->
+
+                            <div class="form_group_password_2 register-form-group-container">
+                                <label for="password"></label>
+                                <input type="password" class='register-text full-width-text' id="password" name="" placeholder="New password">
+                            </div>
+                            <!-- form_group_password_2 -->
+
+                            <div class="birthday-label">Birthday</div>
+                            <div class="form_group_birthday">
+                                <span class="date-holder">
+                                    <select name="day" id="day">
+                                        <option value="day">Day</option>
+                                        <option value="1">1</option>
+                                        <option value="2">2</option>
+                                        <option value="3">3</option>
+                                        <option value="4">4</option>
+                                        <option value="5">5</option>
+                                        <option value="6">6</option>
+                                        <option value="7">7</option>
+                                        <option value="8">8</option>
+                                    </select>
+                                    <select name="month" id="month">
+                                        <option value="month">Month</option>
+                                        <option value="january">January</option>
+                                        <option value="february">February</option>
+                                        <option value="march">March</option>
+                                        <option value="april">April</option>
+                                        <option value="may">May</option>
+                                        <option value="june">June</option>
+                                        <option value="july">July</option>
+                                        <option value="august">August</option>
+                                    </select>
+                                    <select name="year" id="year">
+                                        <option value="year">Year</option>
+                                        <option value="1988">1988</option>
+                                        <option value="1989">1989</option>
+                                        <option value="1990">1990</option>
+                                        <option value="1991">1991</option>
+                                        <option value="1992">1992</option>
+                                        <option value="1993">1993</option>
+                                        <option value="1994">1994</option>
+                                        <option value="1995">1995</option>
+                                        <option value="1996">1996</option>
+                                        <option value="1997">1997</option>
+                                        <option value="1998">1998</option>
+                                    </select>
+                                </span>
+
+                                <p id="birthday-reasons">
+                                    <a href="#">Why do I need to provide my date of birth?</a>
+                                </p>
+
+
+                            </div>
+                            <!-- form_group_birthday -->
+
+                            <div class="gender-selection-container">
+                                <span class="gender-wrapper">
+                                    <span class="single-gender-wrapper">
+                                        <input type="radio" name="sex" value="1" id="female-input-radio">
+                                        <label class="gender-radio-label" for="female-input-radio">Female
+                                            <i class="female-icon"></i>
+                                        </label>
+                                    </span>
+                                    <span class="single-gender-wrapper">
+                                        <input type="radio" name="sex" value="2" id="male-input-radio">
+                                        <label class="gender-radio-label" for="male-input-radio">Male
+                                            <i class="male-icon"></i>
+                                        </label>
+                                    </span>
+                                </span>
+                            </div>
+
+                            <!-- form_group_gender -->
+                            <div class="account-creation-policy-container">
+                                <p id="account-creation-policy-note">By clicking Create an account, you agree to our
+                                    <a href="#">Terms</a> and confirm that you have read our
+                                    <a href="#">Data Policy</a>, including our
+                                    <a href="#">Cookie Use Policy</a>. You may receive SMS message notifications from Facebook and can
+                                    opt out at any time.</p>
+                            </div>
+
+                            <div class="form_group_submit">
+                                <button class='create-button' type="submit">Create an account</button>
+                            </div>
+                            <!-- form_group_submit -->
+                        </form>
+
+                    </div>
+                    <!-- registration-form-container -->
+
+                    <p id="create-page">
+                        <a href="#">Create a Page</a> for a celebrity, band or business.</p>
+
+                </div>
+                <!-- registration-area-container -->
+
+            </div>
+            <!--main-content -->
+        </div>
+        <!--main-content-container -->
+
+        <div class="footer">
+            <div>
+                <div id="pageFooter">
+                    <ul class="page-footer-ul">
+                        <li>English (UK)</li>
+                        <li>
+                            <a title="Bengali">বাংলা</a>
+                        </li>
+                        <li>
+                            <a title="Assamese">অসমীয়া</a>
+                        </li>
+                        <li>
+                            <a title="Hindi">हिन्दी</a>
+                        </li>
+                        <li>
+                            <a title="Nepali">नेपाली</a>
+                        </li>
+                        <li>
+                            <a title="Indonesian">Bahasa Indonesia</a>
+                        </li>
+                        <li>
+                            <a title="Arabic">العربية</a>
+                        </li>
+                        <li>
+                            <a title="Simplified Chinese (China)">中文(简体)</a>
+                        </li>
+                        <li>
+                            <a title="Malay">Bahasa Melayu</a>
+                        </li>
+                        <li>
+                            <a title="Spanish">Español</a>
+                        </li>
+                        <li>
+                            <a title="Portuguese (Brazil)">Português (Brasil)</a>
+                        </li>
+                    </ul>
+                    <div id="contentCurve"></div>
+                    <ul class="page-footer-ul bottom-menu">
+                        <li>
+                            <a title="Sign Up">Sign Up</a>
+                        </li>
+                        <li>
+                            <a title="Log In">Log In</a>
+                        </li>
+                        <li>
+                            <a title="Messenger">Messenger</a>
+                        </li>
+                        <li>
+                            <a title="Facebook Lite">Facebook Lite</a>
+                        </li>
+                        <li>
+                            <a title="Mobile">Mobile</a>
+                        </li>
+                        <li>
+                            <a title="Find Friends">Find Friends</a>
+                        </li>
+                        <li>
+                            <a title="People">People</a>
+                        </li>
+                        <li>
+                            <a title="Pages">Pages</a>
+                        </li>
+                        <li>
+                            <a title="Places">Places</a>
+                        </li>
+                        <li>
+                            <a title="Games">Games</a>
+                        </li>
+                        <li>
+                            <a title="Locations">Locations</a>
+                        </li>
+                        <li>
+                            <a title="Celebrities">Celebrities</a>
+                        </li>
+                        <li>
+                            <a title="Marketplace">Marketplace</a>
+                        </li>
+                        <li>
+                            <a title="Groups">Groups</a>
+                        </li>
+                        <li>
+                            <a title="Recipes">Recipes</a>
+                        </li>
+                        <li>
+                            <a title="Sports">Sports</a>
+                        </li>
+                        <li>
+                            <a title="Look">Look</a>
+                        </li>
+                        <li>
+                            <a title="Moments">Moments</a>
+                        </li>
+                        <li>
+                            <a title="Instagram">Instagram</a>
+                        </li>
+                        <li>
+                            <a title="Local">Local</a>
+                        </li>
+                        <li>
+                            <a title="About">About</a>
+                        </li>
+                        <li>
+                            <a title="Create ad">Create ad</a>
+                        </li>
+                        <li>
+                            <a title="Create Page">Create Page</a>
+                        </li>
+                        <li>
+                            <a title="Developers">Developers</a>
+                        </li>
+                        <li>
+                            <a title="Careers">Careers</a>
+                        </li>
+                        <li>
+                            <a title="Privacy">Privacy</a>
+                        </li>
+                        <li>
+                            <a title="Cookies">Cookies</a>
+                        </li>
+                        <li>
+                            <a title="AdChoices">AdChoices</a>
+                        </li>
+                        <li>
+                            <a title="Terms">Terms</a>
+                        </li>
+                        <li>
+                            <a title="HelpSettings">Help</a>
+                        </li>
+
+                    </ul>
+                    <div class="mvl copyright">
+                        <div>
+                            <span> Facebook © 2018</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <!--page-wrapper -->
+
+
+</body>
+
+</html>
+
+
+<!-- <style>
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    .page-wrapper {
+        height: 669px;
+        min-width: 1349px;
+        background-color: #EFF0F6;
+        margin: 0 auto;
+    }
+
+    .header {
+        height: 82px;
+        min-width: 1349px;
+        background-color: #3b5998;
+        background-image: linear-gradient(#4e69a2, #3b5998 50%);
+        border-bottom: 1px solid #133783;
+        min-height: 42px;
+        position: relative;
+        z-index: 1;
+    }
+
+    .centered-header-container {
+        height: 78px;
+        width: 980px;
+        margin: auto;
+        padding-top: 13px;
+    }
+
+    .logo-section {
+        height: 33px;
+        width: 170px;
+        float: left;
+        margin-top: 17px;
+    }
+
+    .login-section {
+        height: 65px;
+        width: 392px;
+        float: right;
+    }
+
+    .form_group_email_or_phone input {
+        width: 150px;
+        height: 20px;
+        border: 1px solid black;
+    }
+
+    .form_group_email_or_phone label {
+        color: #fff;
+        font-weight: normal;
+        padding-left: 1px;
+    }
+
+    .form_group_password_1 input {
+        margin-left: 24px;
+        width: 150px;
+        height: 20px;
+        border: 1px solid black;
+    }
+
+    .form_group_password_1 label {
+        color: #fff;
+        font-weight: normal;
+        padding-left: 1px;
+        margin-left: 24px;
+    }
+
+    p#forgotten_account a {
+        padding-right: 50px;
+        text-decoration: none;
+        color: #9cb4d8;
+        font-size: 14px;
+    }
+
+    .sign_in_submit {
+        padding-top: 20px;
+        padding-right: 10px;
+        height: 24px;
+        width: 50px;
+    }
+
+    .main-content {
+        height: 587px;
+        width: 980px;
+        margin: 0 auto;
+    }
+
+    .facebook-moto-container {
+        float: left;
+        height: 297px;
+        width: 580px;
+        margin-top: 20px;
+    }
+
+    .connected-message {
+        height: 58px;
+        width: 450px;
+    }
+
+    .facebook-moto-container p {
+        font-family: inherit;
+        font-size: 20px;
+        font-weight: bold;
+        color: #0e385f;
+        line-height: 29px;
+        margin-top: 20px;
+        word-spacing: -1px;
+        padding-left: -20px;
+    }
+
+    .facebook-moto-container img {
+        /* margin-top: 20px; */
+    }
+
+
+
+    .sign_in_input {
+        float: left;
+    }
+
+    .form_group_email_or_phone {
+        float: left;
+    }
+
+    .form_group_password_1 {
+        float: right;
+    }
+
+    p#forgotten_account {
+        float: right;
+    }
+
+    .sign_in_submit {
+        float: right;
+    }
+
+    .registration-area-container {
+        height: 474px;
+        width: 400px;
+        float: right;
+    }
+
+    .registration-head-section {
+        height: 78px;
+        width: 400px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .registration-heading-one {
+        height: 48px;
+        width: 400px;
+        margin-bottom: 5px;
+    }
+
+    .registration-heading-one p#heading-one {
+        font-size: 36px;
+        font-weight: bold;
+        font-family: inherit;
+        color: #333333;
+        margin-bottom: 5px;
+    }
+
+    p#heading-one {
+        font-family: inherit;
+        font-size: 36px;
+        color: #333333;
+        font-weight: bold;
+    }
+
+    .registration-heading-two {
+        height: 30px;
+        width: 400px;
+    }
+
+    p#heading-two {
+        font-family: inherit;
+        font-size: 19px;
+        color: #1d2129;
+        font-weight: normal;
+    }
+
+    .registration-form-container {
+        height: 400px;
+        width: 400px;
+    }
+
+    .footer {
+        clear: both;
+
+        min-width: 1349px;
+        background: white;
+    }
+
+    .inputtext {
+        border-color: #1d2a5b;
+        margin: 0;
+        width: 142px;
+        padding-bottom: 4px;
+        border: 1px solid #bdc7d8;
+        margin: 0;
+        padding: 3px;
+        -webkit-appearance: none;
+        -webkit-border-radius: 0;
+    }
+
+    body {
+        background: #fff;
+        color: #1d2129;
+        direction: ltr;
+        line-height: 1.34;
+        margin: 0;
+        padding: 0;
+        font-family: Helvetica, Arial, sans-serif;
+        font-size: 12px;
+    }
+
+    .login-input-texts {
+        padding-bottom: 4px;
+        color: #fff;
+        font-weight: normal;
+    }
+
+    table tr td {
+        padding: 0 0 0 14px;
+    }
+
+    #login-button {
+        border: 1px solid #ced0d4;
+        border-radius: 2px;
+        cursor: pointer;
+        display: inline-block;
+        font-size: 12px;
+        -webkit-font-smoothing: antialiased;
+        font-weight: bold;
+        line-height: 18px;
+        padding: 2px 6px;
+        text-align: center;
+        text-decoration: none;
+        text-shadow: none;
+        vertical-align: top;
+        white-space: nowrap;
+        font-family: inherit;
+        letter-spacing: inherit;
+        background-color: #4267b2;
+        border-color: #29487d;
+        color: #fff;
+    }
+
+    .login-form-label-field a {
+        color: #9cb4d8;
+        font-weight: normal;
+    }
+
+    a {
+        color: #365899;
+        cursor: pointer;
+        text-decoration: none;
+    }
+
+    .inputtext {
+        border-color: #1d2a5b;
+        margin: 0;
+        width: 142px;
+    }
+
+    td,
+    td.label {
+        text-align: left;
+    }
+
+    .login-form-label-field {
+        padding-top: 4px;
+    }
+
+    .register-text {
+        font-size: 18px;
+        padding: 8px 10px;
+        width: 172px;
+        border-color: #bdc7d8;
+        border-radius: 5px;
+        margin: 0;
+        border: 1px solid #bdc7d8;
+    }
+
+    .full-width-text {
+        width: 377px;
+    }
+
+    .register-form-group-container {
+        margin-bottom: 10px;
+    }
+
+
+
+    #birthday-reasons {
+        font-size: 11px;
+        display: inline-block;
+        max-width: 140px;
+        vertical-align: middle;
+        margin-left: 10px;
+    }
+
+    select {
+        font-size: 13px;
+        height: 30px;
+        padding: 5px;
+        border: 1px solid #bdc7d8;
+    }
+
+    .main-content-container {
+        width: 100%;
+        background: linear-gradient(white, #D3D8E8);
+    }
+
+    ::placeholder {
+        color: #999999;
+        opacity: 1;
+        /* Firefox */
+    }
+
+    :-ms-input-placeholder {
+        /* Internet Explorer 10-11 */
+        color: #999999;
+    }
+
+    ::-ms-input-placeholder {
+        /* Microsoft Edge */
+        color: #999999;
+    }
+
+    #firstname {
+        margin-right: 8px;
+    }
+
+    .birthday-label {
+        color: #1d2129;
+        font-size: 18px;
+        font-weight: normal;
+        margin-bottom: 5px;
+        margin-top: 20px;
+    }
+
+    span .date-holder {
+        display: inline-block;
+    }
+
+    .gender-selection-container {
+        margin-top: 10px;
+        position: relative;
+        font-family: inherit;
+        font-size: 12px;
+    }
+
+    .gender-wrapper {
+        display: inline-block;
+        font-family: inherit;
+    }
+
+    .single-gender-wrapper {
+        margin-right: 4px;
+        border-radius: 4px;
+        border-width: 1px;
+        display: inline-block;
+        padding: 5px 0 5px 4px;
+    }
+
+    .gender-radio-label {
+        font-family: inherit;
+        letter-spacing: inherit;
+        color: #1d2129;
+        font-size: 18px;
+        font-weight: normal;
+        line-height: 18px;
+        padding: 0 10px 0 3px;
+        vertical-align: middle;
+    }
+
+    .female-icon {
+        background-position: 0 -21px;
+        background-image: url(images/male_female_icon.png);
+        background-size: 21px 42px;
+        background-repeat: no-repeat;
+        display: inline-block;
+        height: 20px;
+        width: 20px;
+        padding-left: 8px;
+        vertical-align: text-top;
+    }
+
+    .male-icon {
+        background-position: 0 0;
+        background-image: url(images/male_female_icon.png);
+        background-size: 21px 42px;
+        background-repeat: no-repeat;
+        display: inline-block;
+        height: 20px;
+        width: 20px;
+        padding-left: 8px;
+        vertical-align: text-top;
+    }
+
+    .account-creation-policy-container {
+        width: 399px;
+
+    }
+
+    #account-creation-policy-note {
+        color: #777;
+        font-size: 11px;
+        width: 316px;
+        padding: 1em 0;
+    }
+
+    .create-button {
+
+        font-family: 'Freight Sans Bold', Helvetica, Arial, sans-serif !important;
+        font-weight: bold !important;
+        letter-spacing: normal;
+        text-rendering: optimizelegibility;
+
+        font-size: 19px;
+        line-height: 126%;
+
+
+        min-width: 194px;
+        padding: 7px 20px;
+        text-align: center;
+
+
+        background: linear-gradient(#67ae55, #578843);
+        background-color: #69a74e;
+        box-shadow: inset 0 1px 1px #a4e388;
+        border-color: #3b6e22 #3b6e22 #2c5115!important;
+
+
+        border: 1px solid;
+        border-radius: 5px;
+        color: #fff;
+        cursor: pointer;
+        display: inline-block;
+        letter-spacing: 1px;
+        position: relative;
+        text-shadow: 0 1px 2px rgba(0, 0, 0, .5);
+
+
+        margin-top: 10px;
+        margin-bottom: 10px;
+
+
+    }
+
+    #create-page {
+        border-top: 1px solid #dddfe2;
+        color: #666;
+        font-size: 13px;
+        font-weight: bold;
+        margin-top: 10px;
+        padding-top: 15px;
+    }
+
+    #pageFooter {
+        color: #737373;
+        margin: 0 auto;
+        width: 980px;
+        margin-top: 25px;
+        margin-bottom: 25px;
+    }
+
+    .page-footer-ul {
+        padding-top: 8px;
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+    }
+
+    .page-footer-ul>li:first-child {
+        padding-left: 0;
+    }
+
+    .page-footer-ul>li {
+        padding-right: 0;
+    }
+
+    .page-footer-ul>li {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .page-footer-ul>li:first-child {
+        border-width: 0;
+    }
+
+    .page-footer-ul>li {
+        vertical-align: top;
+    }
+
+    .page-footer-ul>li {
+        border-width: 0 0 0 1px;
+        display: inline-block;
+    }
+
+    #contentCurve {
+        border-bottom: 1px solid #dddfe2;
+        font-size: 1px;
+        height: 8px;
+        margin-bottom: 8px;
+    }
+
+    .bottom-menu {
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+
+    .bottom-menu li {
+        margin-bottom: 4px;
+        padding-left: 0;
+    }
+</style> -->
